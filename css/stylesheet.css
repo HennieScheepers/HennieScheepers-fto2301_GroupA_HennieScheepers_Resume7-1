@@ -151,7 +151,8 @@ li {
 
 @keyframes footerAnimate {
     0% {background-color: #FF4698;}
-    50% {background-color: #845EC2;}
+    30% {background-color: #845EC2;}
+    40% {background-color: #FF4698;}
 }
 
 footer {
