@@ -123,17 +123,17 @@ h2 {
 
 /*Keyframes for icon when hovering over it*/
 @keyframes iconAnimation {
-    8.3%{transform: rotate(-15deg) scale(120%); filter: invert(13%) sepia(78%) saturate(6318%) hue-rotate(277deg) brightness(90%) contrast(82%);}
+    8.3%{transform: rotate(-15deg) scale(120%); filter: invert(42%) sepia(97%) saturate(345%) hue-rotate(220deg) brightness(85%) contrast(90%);}
     16.6%{transform: rotate(0deg) scale(110%); filter: invert(40%) sepia(95%) saturate(1887%) hue-rotate(308deg) brightness(101%) contrast(101%);}
-    24.9%{transform: rotate(15deg) scale(120%); filter: invert(13%) sepia(78%) saturate(6318%) hue-rotate(277deg) brightness(90%) contrast(82%);}
+    24.9%{transform: rotate(15deg) scale(120%); filter: invert(42%) sepia(97%) saturate(345%) hue-rotate(220deg) brightness(85%) contrast(90%);}
     33.26%{transform: rotate(0deg) scale(110%); filter: invert(40%) sepia(95%) saturate(1887%) hue-rotate(308deg) brightness(101%) contrast(101%);}
-    41.6%{transform: rotate(-15deg) scale(120%); filter: invert(13%) sepia(78%) saturate(6318%) hue-rotate(277deg) brightness(90%) contrast(82%);}
+    41.6%{transform: rotate(-15deg) scale(120%); filter: invert(42%) sepia(97%) saturate(345%) hue-rotate(220deg) brightness(85%) contrast(90%);}
     50%{transform: rotate(0deg) scale(110%); filter: invert(40%) sepia(95%) saturate(1887%) hue-rotate(308deg) brightness(101%) contrast(101%);}
-    58.3%{transform: rotate(15deg) scale(120%); filter: invert(13%) sepia(78%) saturate(6318%) hue-rotate(277deg) brightness(90%) contrast(82%);}
+    58.3%{transform: rotate(15deg) scale(120%); filter: invert(42%) sepia(97%) saturate(345%) hue-rotate(220deg) brightness(85%) contrast(90%);}
     66.6%{transform: rotate(0deg) scale(110%); filter: invert(40%) sepia(95%) saturate(1887%) hue-rotate(308deg) brightness(101%) contrast(101%);}
-    74.9%{transform: rotate(-15deg) scale(120%); filter: invert(13%) sepia(78%) saturate(6318%) hue-rotate(277deg) brightness(90%) contrast(82%);}
+    74.9%{transform: rotate(-15deg) scale(120%); filter: invert(42%) sepia(97%) saturate(345%) hue-rotate(220deg) brightness(85%) contrast(90%);}
     83.2%{transform: rotate(0deg) scale(110%); filter: invert(40%) sepia(95%) saturate(1887%) hue-rotate(308deg) brightness(101%) contrast(101%);}
-    91.5%{transform: rotate(15deg) scale(120%); filter: invert(13%) sepia(78%) saturate(6318%) hue-rotate(277deg) brightness(90%) contrast(82%);}
+    91.5%{transform: rotate(15deg) scale(120%); filter: invert(42%) sepia(97%) saturate(345%) hue-rotate(220deg) brightness(85%) contrast(90%);}
     100%{transform: rotate(0deg) scale(110%); filter: invert(40%) sepia(95%) saturate(1887%) hue-rotate(308deg) brightness(101%) contrast(101%);}
 }
 
@@ -149,4 +149,42 @@ li {
     margin: 0 0 10px 0;
 }
 
+@keyframes footerAnimate {
+    0% {background-color: #FF4698;}
+    50% {background-color: #845EC2;}
+}
+
+footer {
+    background-color: #FF4698;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: footerAnimate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+form {
+    width: 400px;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#Submit {
+    font-family: 'Courier New', Courier, monospace;
+}
 

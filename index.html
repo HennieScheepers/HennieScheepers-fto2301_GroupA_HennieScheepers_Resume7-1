@@ -127,5 +127,33 @@
                     </ul>
                 </aside>
             </section>
+            <footer>
+                <h3>Contact me!</h3>
+                <form target="_blank" action="https://formsubmit.co/hennie.104@hotmail.com" method="POST">
+                    <label for="Name">Name: 
+                        <input id="Name" name="Name" type="text" required>
+                    </label>
+                    <label for="Email">Email: 
+                        <input id="Email" name="Email" type="email" required>
+                    </label>
+                    <label for="Subject">Subject: 
+                        <select id="Subject" name="Subject" required>
+                            <option value="Work">Potential work</option>
+                            <option value="Feedback">I have some feedback</option>
+                            <option value="Chat">Let's have a chat</option>
+                        </select>
+                    </label>
+                    <label for="Message">Message:
+                        <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+                    </label>
+                    <div id="buttonContainer">
+                        <label for="Submit">
+                            <input id="Submit" type="submit">
+                        </label>
+                    </div>  
+
+                </form>
+            </footer>
+        </section>
 </body>
 </html>
