@@ -118,23 +118,23 @@ h2 {
 .icon {
     height: 20px;
     width: 20px;
-    filter: invert(40%) sepia(95%) saturate(1887%) hue-rotate(308deg) brightness(101%) contrast(101%);
+    filter: invert(39%) sepia(100%) saturate(1253%) hue-rotate(307deg) brightness(98%) contrast(106%);
 }
 
 /*Keyframes for icon when hovering over it*/
 @keyframes iconAnimation {
-    8.3%{transform: rotate(-15deg) scale(120%); filter: invert(42%) sepia(97%) saturate(345%) hue-rotate(220deg) brightness(85%) contrast(90%);}
-    16.6%{transform: rotate(0deg) scale(110%); filter: invert(40%) sepia(95%) saturate(1887%) hue-rotate(308deg) brightness(101%) contrast(101%);}
-    24.9%{transform: rotate(15deg) scale(120%); filter: invert(42%) sepia(97%) saturate(345%) hue-rotate(220deg) brightness(85%) contrast(90%);}
-    33.26%{transform: rotate(0deg) scale(110%); filter: invert(40%) sepia(95%) saturate(1887%) hue-rotate(308deg) brightness(101%) contrast(101%);}
-    41.6%{transform: rotate(-15deg) scale(120%); filter: invert(42%) sepia(97%) saturate(345%) hue-rotate(220deg) brightness(85%) contrast(90%);}
-    50%{transform: rotate(0deg) scale(110%); filter: invert(40%) sepia(95%) saturate(1887%) hue-rotate(308deg) brightness(101%) contrast(101%);}
-    58.3%{transform: rotate(15deg) scale(120%); filter: invert(42%) sepia(97%) saturate(345%) hue-rotate(220deg) brightness(85%) contrast(90%);}
-    66.6%{transform: rotate(0deg) scale(110%); filter: invert(40%) sepia(95%) saturate(1887%) hue-rotate(308deg) brightness(101%) contrast(101%);}
-    74.9%{transform: rotate(-15deg) scale(120%); filter: invert(42%) sepia(97%) saturate(345%) hue-rotate(220deg) brightness(85%) contrast(90%);}
-    83.2%{transform: rotate(0deg) scale(110%); filter: invert(40%) sepia(95%) saturate(1887%) hue-rotate(308deg) brightness(101%) contrast(101%);}
-    91.5%{transform: rotate(15deg) scale(120%); filter: invert(42%) sepia(97%) saturate(345%) hue-rotate(220deg) brightness(85%) contrast(90%);}
-    100%{transform: rotate(0deg) scale(110%); filter: invert(40%) sepia(95%) saturate(1887%) hue-rotate(308deg) brightness(101%) contrast(101%);}
+    8.3%{transform: rotate(-15deg) scale(120%);}
+    16.6%{transform: rotate(0deg) scale(110%); }
+    24.9%{transform: rotate(15deg) scale(120%);} 
+    33.26%{transform: rotate(0deg) scale(110%); }
+    41.6%{transform: rotate(-15deg) scale(120%); }
+    50%{transform: rotate(0deg) scale(110%); }
+    58.3%{transform: rotate(15deg) scale(120%); }
+    66.6%{transform: rotate(0deg) scale(110%); }
+    74.9%{transform: rotate(-15deg) scale(120%); }
+    83.2%{transform: rotate(0deg) scale(110%); }
+    91.5%{transform: rotate(15deg) scale(120%); }
+    100%{transform: rotate(0deg) scale(110%); }
 }
 
 /*Animation for on hover of icons*/
@@ -147,12 +147,6 @@ h2 {
 
 li {
     margin: 0 0 10px 0;
-}
-
-@keyframes footerAnimate {
-    0% {background-color: #FF4698;}
-    30% {background-color: #845EC2;}
-    40% {background-color: #FF4698;}
 }
 
 footer {
